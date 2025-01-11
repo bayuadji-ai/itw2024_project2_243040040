@@ -7,3 +7,158 @@
   outline: none;
   scroll-behavior: smooth;
 }
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+section {
+  min-height: 100vh;
+  padding: 10rem 9% 2rem;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 2rem 9%;
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+  background: white;
+}
+
+.logo {
+  font-size: 2.5rem;
+  color: black;
+  font-weight: 600;
+  cursor: default;
+  text-decoration: none;
+}
+
+.logo:hover {
+  color: blueviolet;
+}
+
+.navbar a {
+  font-size: 1.7rem;
+  color: black;
+  margin-left: 4rem;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: #1e21ec;
+}
+
+#menu-icon {
+  font-size: 3.6rem;
+  color: var(--text-color);
+  display: none;
+}
+
+.axion-content {
+  text-align: center;
+}
+
+.img-home img {
+  background-position: center;
+  justify-content: center;
+  transition: 0.5s ease;
+}
+
+.img-home img:hover {
+  transform: scale(1.05);
+  border-color: blueviolet;
+}
+
+.about-content h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.about-content h3 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.about-content p {
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+.about-content h4 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.about-content h2 {
+  text-align: center;
+}
+
+.customerservices h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.cs-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+
+.cs-container .cs-box {
+  flex: 1 1 20rem;
+  padding: 3rem 2rem 4rem;
+  background: bisque;
+  border-radius: 2rem;
+  text-align: center;
+  border: 0.2rem solid bisque;
+  transition: 0.5s ease;
+}
+
+.cs-box i {
+  font-size: 5rem;
+  color: black;
+}
+
+.cs-box h3 {
+  font-size: 2rem;
+}
+
+.cs-box p {
+  font-size: 1.3rem;
+}
+
+.cs-container .cs-box:hover {
+  border-color: #1e21ec;
+  transform: scale(1.02);
+}
+
+.product h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.product-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+
+.product-container .card {
+  border-radius: 20%;
+}
+
+.product-container .card .card-body p {
+  text-align: center;
+}
