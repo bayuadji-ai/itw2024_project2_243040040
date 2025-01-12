@@ -24,7 +24,7 @@ section {
   left: 0;
   width: 100%;
   padding: 2rem 9%;
-  background: #ddd;
+  background: var(--bg-color);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -299,10 +299,29 @@ section {
 }
 
 @media (max-width: 991px) {
+  .header {
+    padding: 2rem 3%;
+  }
+
+  .section {
+    padding: 10rem 3% 2rem;
+  }
+
+  .footer {
+    padding: 2rem 3%;
+  }
 }
 
-@media (max-width: 768px) {
-}
+@media (max-width: 618px) {
+  .axion-content .img-home {
+    object-fit: cover;
+  }
 
-@media (max-width: 617px) {
+  .serlok-container {
+    grid-template-columns: 1fr;
+  }
+
+  .cs-container .cs-box h3 {
+    font-size: medium;
+  }
 }
