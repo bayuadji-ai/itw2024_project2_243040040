@@ -24,12 +24,12 @@ section {
   left: 0;
   width: 100%;
   padding: 2rem 9%;
-  background: white;
+  background: #ddd;
   display: flex;
   justify-content: space-between;
   align-items: center;
   z-index: 100;
-  background: white;
+  background: #ddd;
 }
 
 .logo {
@@ -117,10 +117,10 @@ section {
 .cs-container .cs-box {
   flex: 1 1 20rem;
   padding: 3rem 2rem 4rem;
-  background: bisque;
+  background: rgb(233, 198, 247);
   border-radius: 2rem;
   text-align: center;
-  border: 0.2rem solid bisque;
+  border: 0.2rem solid rgb(160, 208, 240);
   transition: 0.5s ease;
 }
 
@@ -138,7 +138,7 @@ section {
 }
 
 .cs-container .cs-box:hover {
-  border-color: #1e21ec;
+  border-color: #9d9eff;
   transform: scale(1.02);
 }
 
@@ -157,7 +157,7 @@ section {
 
 .product-container .card:hover {
   transform: scale(1.02);
-  background: #9798ee;
+  background: #e48af0;
 }
 
 .product-container .card {
@@ -208,14 +208,14 @@ section {
   left: 0;
   width: 100%;
   height: 100%;
-  background: sandybrown;
+  background: rgb(131, 208, 238);
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   text-align: center;
   padding: 0 4rem;
-  transform: translateY(100%);
+  transform: translateY(-100%);
   transition: 0.5s ease;
 }
 
@@ -230,4 +230,79 @@ section {
 .serlok-layer p {
   font-size: 1.6rem;
   margin: 0.3rem 0 1rem;
+}
+
+.contact h1 {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.contact form {
+  max-width: 70rem;
+  margin: 1rem auto;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.contact form .input-box {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.contact form .input-box input,
+.contact form textarea {
+  width: 100%;
+  padding: 1.5rem;
+  font-size: 1.6rem;
+  color: black;
+  background: #aacaf8;
+  border-radius: 0.8rem;
+  margin: 0.7rem 0;
+}
+
+.contact form .input-box input {
+  width: 49%;
+}
+
+.contact form textarea {
+  resize: none;
+}
+
+.contact form .btn btn-outline-primary {
+  margin-top: 2rem;
+  cursor: pointer;
+  size: 60px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 2rem 9%;
+  background: #ddd;
+  text-align: center;
+}
+
+.footer-text p {
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+/*BREAKPOINTS*/
+
+@media (max-width: 1200px) {
+  html {
+    font-size: 55%;
+  }
+}
+
+@media (max-width: 991px) {
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 617px) {
 }
